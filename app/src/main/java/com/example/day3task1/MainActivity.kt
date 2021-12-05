@@ -8,7 +8,7 @@ import kotlin.random.Random
 
 class MainActivity : AppCompatActivity() {
 
-    var number = Random.nextInt(1,100)
+    var number = Random.nextInt(1,1000)
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
